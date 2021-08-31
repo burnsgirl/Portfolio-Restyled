@@ -1,24 +1,33 @@
 .header {
     height: 400px;
     background-color:aqua;
-};
+}
 
 .navbar {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color:aqua;
-};
+    background-color:white;
+}
 
 /* .navbar-left {
-   
+   font-size:40px;
 }; */
 
 #name {
-    font-size: 40x;
+    font-size: 40px;
     font-weight:bold;
-};
+}
 
 /* .navbar-right {
    
 }; */
+
+.overview {
+    height:100px;
+    /* background-color:black; */
+}
+
+body {
+    background-color: white;
+}
