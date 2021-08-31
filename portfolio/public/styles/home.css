@@ -1,18 +1,23 @@
-header {
+.header {
     height: 400px;
-    background-color: aqua;
 };
 
-.nav
+.navbar {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:aqua;
+};
 
-.navbar-left {
+/* .navbar-left {
    
-};
+}; */
 
 #name {
-    font-size: 100x;
-}
+    font-size: 40x;
+    font-weight:bold;
+};
 
-.navbar-right {
+/* .navbar-right {
    
-}
+}; */
