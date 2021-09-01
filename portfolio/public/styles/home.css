@@ -105,15 +105,16 @@
 }
 
 .mockup {
-    width: 500px;
+    width: 700px;
     height:600px;
-    
     background-color:red;
 }
 
 .links {
-    height: 600px;
-    width:200px;
+    margin-top: 175px;
+    margin-left: 500px;
+    height: 200px;
+    width: 200px;
     background-color:green;
 }
 /*Media Transformations*/
