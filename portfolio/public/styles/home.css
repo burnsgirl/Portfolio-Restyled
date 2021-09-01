@@ -86,11 +86,35 @@
     margin-right: 80px;
 }
 
+
+/* Cards */
 .card {
     height:600px;
     width:900px;
     border:5px solid black;
     margin: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.overview {
+    width: 200px;
+    height:600px;
+    background-color:aqua;
+}
+
+.mockup {
+    width: 500px;
+    height:600px;
+    
+    background-color:red;
+}
+
+.links {
+    height: 600px;
+    width:200px;
+    background-color:green;
 }
 /*Media Transformations*/
 
