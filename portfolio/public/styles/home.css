@@ -78,15 +78,19 @@
 /* Body */
 
 .container {
-    background-color:aqua;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-left: 80px;
     margin-right: 80px;
 }
 
 .card {
-    height:400px;
-    width:400px;
-    background-color:black;
+    height:600px;
+    width:900px;
+    border:5px solid black;
+    margin: 20px;
 }
 /*Media Transformations*/
 
