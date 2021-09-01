@@ -97,10 +97,22 @@
     flex-wrap: wrap;
 }
 
+/* Overview for cards */
 .overview {
     width: 190px;
     height:590px;
     border: 5px solid rgb(95, 93, 93);
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 93, 93);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.overview h1 {
+    font-weight: bold;
 }
 
 .mockup {
@@ -116,6 +128,22 @@
     width: 200px;
     background-color:green;
 }
+
+/* Button */
+/* button {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 93, 93);
+    background-color:white;
+    border-radius:40%;
+    border: none;
+} */
+
+button {
+    
+}
+
+
 /*Media Transformations*/
 
 /* @media screen and (max-width:1150px) */
