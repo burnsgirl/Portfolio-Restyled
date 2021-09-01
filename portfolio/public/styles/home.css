@@ -126,7 +126,9 @@
     margin-left: 500px;
     height: 200px;
     width: 200px;
-    background-color:green;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Button */
@@ -143,6 +145,7 @@ button {
   align-items: center;
   display: inline-flex;
   justify-content: center;
+  margin:10px;
   padding: 0.7rem 2rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
