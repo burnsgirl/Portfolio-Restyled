@@ -1,31 +1,52 @@
+/* Header */
 .header {
     height: 400px;
     background-color:aqua;
 }
 
+/* Nav Bar */
 .navbar {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color:white;
+    justify-content: center;
 }
 
-/* .navbar-left {
-   font-size:40px;
-}; */
+.navbar-left {
+   margin-left: 30px;
+   font-size: 40px;
+   font-weight: bold;
+   color: rgb(95, 93, 93);
+   line-height: 5px;
+}
 
-#name {
+
+.navbar-right {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    line-height: 5px;
+    
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+}
+
+#about {
     font-size: 40px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-/* .navbar-right {
-   
-}; */
+/* Overview */
 
-.overview {
-    height:100px;
-    /* background-color:black; */
+.aboutmeoverview {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 body {
