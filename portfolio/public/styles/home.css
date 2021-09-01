@@ -128,11 +128,14 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-left:40px;
 }
 
 img {
     height:600px;
     width:600px;
+    position: absolute;
+    z-index: -1;
 }
 
 /* Button */
@@ -153,6 +156,7 @@ button {
   border: 0.3rem solid transparent;
   border-radius: 3rem;
   border-color: rgb(95, 93, 93);
+  background-color:transparent;
   transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
 }
 
