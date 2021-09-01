@@ -75,11 +75,19 @@
     color: rgb(95, 93, 93);
 }
 
+/* Body */
 
-body {
-    background-color: white;
+.container {
+    background-color:aqua;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
+.card {
+    height:400px;
+    width:400px;
+    background-color:black;
+}
 /*Media Transformations*/
 
 /* @media screen and (max-width:1150px) */
