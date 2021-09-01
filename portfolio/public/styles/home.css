@@ -118,7 +118,6 @@
 .mockup {
     width: 700px;
     height:600px;
-    background-color:red;
 }
 
 .links {
@@ -131,15 +130,12 @@
     align-items: center;
 }
 
+img {
+    height:600px;
+    width:600px;
+}
+
 /* Button */
-/* button {
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(95, 93, 93);
-    background-color:white;
-    border-radius:40%;
-    border: none;
-} */
 
 button {
   align-items: center;
