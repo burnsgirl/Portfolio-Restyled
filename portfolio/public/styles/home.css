@@ -128,7 +128,7 @@
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: rgb(95, 93, 93);
-   text-align: center;
+    text-align: center;
     height:0px;
     margin: 0px;
     font-size: 50px;
@@ -206,8 +206,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6aeeb0', end
 
 /* Code Quiz */
 
-#codequiz-overview {
-    padding-top: 170px;
+#codequiz-overview p{
+    padding-top: 235px;
     padding-left: 20px;
     color:white;
 }
@@ -229,6 +229,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e6f9a', end
     color:white;
     border-color: white;
 }
+
+/* Note Taker */
+
+#noteTaker {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1c8e7d+1,23ddc1+47,6cc9a9+100 */
+background: #1c8e7d; /* Old browsers */
+background: -moz-linear-gradient(left,  #1c8e7d 1%, #23ddc1 47%, #6cc9a9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1c8e7d 1%,#23ddc1 47%,#6cc9a9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1c8e7d 1%,#23ddc1 47%,#6cc9a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c8e7d', endColorstr='#6cc9a9',GradientType=1 ); /* IE6-9 */
+}
+
+#noteTaker-overview p {
+    padding-top: 222px;
+    padding-left: 20px;
+}
+
+#noteTaker-mockup img {
+    height:600px;
+    width:700px;
+    position: absolute;
+}
+
+/* Work Schedule */
+
+#workschedule {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#28a5cc+45,2cbeea+62,25c1ed+66,77c2dd+100 */
+background: #28a5cc; /* Old browsers */
+background: -moz-linear-gradient(left,  #28a5cc 45%, #2cbeea 62%, #25c1ed 66%, #77c2dd 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #28a5cc 45%,#2cbeea 62%,#25c1ed 66%,#77c2dd 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #28a5cc 45%,#2cbeea 62%,#25c1ed 66%,#77c2dd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', endColorstr='#77c2dd',GradientType=1 ); /* IE6-9 */
+}
+
+#workschedule-overview p {
+    padding-top: 196px;
+    padding-left: 20px;
+}
+
 
 /*Media Transformations*/
 
