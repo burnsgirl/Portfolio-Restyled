@@ -165,9 +165,16 @@ button:hover {
   }
 
 #recipegram {
-    background-color: rgb(179, 241, 167);
+    /* background-color: rgb(179, 241, 167); */
     z-index: -1;
     position: absolute;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6aeeb0+0,7ff3b5+40,a8eecd+59,a8eecd+59,7ff3b5+71,b6eccf+87,8bf3ba+99 */
+background: #6aeeb0; /* Old browsers */
+background: -moz-linear-gradient(left,  #6aeeb0 0%, #7ff3b5 40%, #a8eecd 59%, #a8eecd 59%, #7ff3b5 71%, #b6eccf 87%, #8bf3ba 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #6aeeb0 0%,#7ff3b5 40%,#a8eecd 59%,#a8eecd 59%,#7ff3b5 71%,#b6eccf 87%,#8bf3ba 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #6aeeb0 0%,#7ff3b5 40%,#a8eecd 59%,#a8eecd 59%,#7ff3b5 71%,#b6eccf 87%,#8bf3ba 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6aeeb0', endColorstr='#8bf3ba',GradientType=1 ); /* IE6-9 */
+
 }
 
 /*Media Transformations*/
