@@ -234,16 +234,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e6f9a', end
 
 #noteTaker {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1c8e7d+1,23ddc1+47,6cc9a9+100 */
-background: #1c8e7d; /* Old browsers */
-background: -moz-linear-gradient(left,  #1c8e7d 1%, #23ddc1 47%, #6cc9a9 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #1c8e7d 1%,#23ddc1 47%,#6cc9a9 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #1c8e7d 1%,#23ddc1 47%,#6cc9a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c8e7d', endColorstr='#6cc9a9',GradientType=1 ); /* IE6-9 */
+background: #45c0ae; /* Old browsers */
+background: -moz-linear-gradient(left,  #45c0ae 1%, #23ddc1 47%, #6cc9a9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #45c0ae 1%,#23ddc1 47%,#6cc9a9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #45c0ae 1%,#23ddc1 47%,#6cc9a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45c0ae', endColorstr='#6cc9a9',GradientType=1 ); /* IE6-9 */
 }
 
 #noteTaker-overview p {
     padding-top: 222px;
     padding-left: 20px;
+    color:rgb(209, 84, 84);
 }
 
 #noteTaker-mockup img {
@@ -252,6 +253,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c8e7d', end
     position: absolute;
 }
 
+#noteTaker-mockup h1 {
+    color:rgb(209, 84, 84);
+}
+
+#noteTaker-btn {
+    color:rgb(209, 84, 84);
+    border-color:rgb(209, 84, 84);
+}
 /* Work Schedule */
 
 #workschedule {
