@@ -105,10 +105,6 @@
     text-align:center;
     font-family: 'Roboto', sans-serif;
     color: rgb(95, 93, 93);
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .overview h1 {
@@ -165,7 +161,7 @@ button:hover {
   }
 
 #recipegram {
-    background-color: rgb(130, 189, 130);
+    background-color: rgb(179, 241, 167);
     z-index: -1;
     position: absolute;
 }
