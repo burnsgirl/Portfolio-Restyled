@@ -195,8 +195,9 @@ background: linear-gradient(to right,  #6aeeb0 0%,#7ff3b5 40%,#a8eecd 59%,#a8eec
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6aeeb0', endColorstr='#8bf3ba',GradientType=1 ); /* IE6-9 */
 }
 
-#recipegram-overview {
-    text-align:center;
+#recipegram-overview p{
+    padding-top: 170px;
+    padding-left: 20px;
 }
 
 /*Media Transformations*/
