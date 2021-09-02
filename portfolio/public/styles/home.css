@@ -32,6 +32,7 @@
     flex-direction:row;
     flex-wrap: wrap;
     line-height: 5px;  
+   
 }
 
 .navbar-right a {
@@ -41,9 +42,10 @@
 }
 
 #about {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 30px;
+    
     font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
 }
 
 /* Overview */
@@ -106,12 +108,20 @@
     text-align:center;
     font-family: 'Roboto', sans-serif;
     color: rgb(95, 93, 93);
+    text-align:center;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 
-.overview h1 {
+.mockup h1 {
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 93, 93);
+   text-align: center;
+    height:0px;
+    margin: 0px;
+    font-size: 50px;
+    padding-top:30px;
 }
 
 .mockup {
@@ -131,12 +141,6 @@
     /* padding-left:60px; */
 }
 
-#recipegram-img {
-    height:600px;
-    width:600px;
-    position: absolute;
-    z-index: -1; 
-}
 
 /* Button */
 
@@ -164,6 +168,14 @@ button:hover {
     transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
   }
 
+/* RecipeGram */
+#recipegram-img {
+    height:600px;
+    width:600px;
+    position: absolute;
+    z-index: -1; 
+}
+
 #recipegram {
     /* background-color: rgb(179, 241, 167); */
     z-index: -1;
@@ -174,7 +186,10 @@ background: -moz-linear-gradient(left,  #6aeeb0 0%, #7ff3b5 40%, #a8eecd 59%, #a
 background: -webkit-linear-gradient(left,  #6aeeb0 0%,#7ff3b5 40%,#a8eecd 59%,#a8eecd 59%,#7ff3b5 71%,#b6eccf 87%,#8bf3ba 99%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to right,  #6aeeb0 0%,#7ff3b5 40%,#a8eecd 59%,#a8eecd 59%,#7ff3b5 71%,#b6eccf 87%,#8bf3ba 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6aeeb0', endColorstr='#8bf3ba',GradientType=1 ); /* IE6-9 */
+}
 
+#recipegram-overview {
+    text-align:center;
 }
 
 /*Media Transformations*/
