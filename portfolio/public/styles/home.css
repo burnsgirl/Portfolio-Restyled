@@ -340,18 +340,70 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 
 @media screen and (max-width:1050px) {
 
+    /* Body */
     .container {
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     } 
-
+    
+    /* Cards */
     .card {
-        height: 600px;
+        height: 400px;
         width: 800px;
         margin: 20px 20px;
     }
+
+    .overview {
+        height:600px;
+        width:150px;
+        text-align: center;
+    }
+
+    .overview p {
+        position: relative;
+        top: -100px;
+    }
+
+    .mockup {
+        width:500px;
+    }
+
+    .links {
+        position: relative;
+        right:145px;
+
+    }
+
+    button {
+        font-size:12px;
+        position: relative;
+        top: -65px;
+    }
+
+    /* RecipeGram */
+    #recipegram-img {
+        height:300px;
+        width:300px;
+        position: absolute;
+        z-index: -1; 
+    }
+
+    #noteTaker-mockup img {
+        height:400px;
+        width:500px;
+        position: absolute;
+    }
+
+    #workschedule-mockup img {
+        height: 300px;
+        width: 450px;
+        position: absolute;
+        margin-top: 57px;
+        margin-left: 26px;
+    }
+
 }
 
 @media screen and (max-width:850px) {
@@ -368,5 +420,68 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
         width: 460px;
         margin: 20px 20px;
     }
+
+    .mockup h1 {
+        position: relative;
+        top:-130px;
+        left:75px;
+        font-size:40px;
+    }
+
+    .overview {
+        height:150px;
+        width:460px;
+        text-align: center;
+    }
+
+    .overview p {
+        position: relative;
+        top: -130px;
+        left:-15px;
+    }
+
+    .mockup {
+        width: 300px;
+    }
+
+    /* .links {
+        position: relative;
+        right:145px;
+    } */
+
+    #codequiz-btn-deployed {
+        position: relative;
+        right:100px;
+    }
+
+    /* RecipeGram */
+    #recipegram-img {
+        height:150px;
+        width:150px;
+        position: absolute;
+        z-index: -1; 
+    }
+
+    #noteTaker-mockup img {
+        height:200px;
+        width:250px;
+        position: relative;
+        left: 106px;
+    }
+
+/* Work Schedule */
+    #workschedule-mockup img {
+        height: 200px;
+        width: 300px;
+        position: relative;
+        top: -68px;
+        left: 57px;
+    }
+
+    #workschedule-overview p {
+        position: relative;
+        top:-100px;
+    }
+
 }
 
