@@ -318,6 +318,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     color: rgb(95, 93, 93);
 }
 
+.graphic-card img {
+    height: 460px;
+    width: 460px;
+    z-index:-1;
+    position: relative;
+    bottom: 256px;
+}
+
+/* #honda {
+    position: relative;
+    bottom: 256px;
+}
+
+#google {
+    position: relative;
+    bottom: 256px;
+} */
+
 /*Media Transformations*/
 
 @media screen and (max-width:750px) {
