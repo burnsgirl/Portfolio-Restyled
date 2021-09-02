@@ -90,6 +90,7 @@ header {
     text-decoration: none;
     color: rgb(95, 93, 93);
     height:200px;
+    border-bottom: 3px solid rgb(95, 93, 93);
 }
 
 #aboutme {
@@ -106,6 +107,15 @@ header {
     font-weight: bold;
     text-decoration: none;
     color: rgb(95, 93, 93);
+}
+
+#work-section {
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(95, 93, 93);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 36px;
 }
 
 /* Cards */
