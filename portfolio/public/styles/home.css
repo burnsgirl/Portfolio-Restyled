@@ -23,9 +23,14 @@ header {
 
 /* Picture */
 #pic {
-    background-color:royalblue;
     height:250px;
     width:250px;
+}
+
+#pic img {
+    height:250px;
+    width:250px;
+    border-radius: 50%;
 }
 
 /* Nav Bar */
