@@ -156,7 +156,6 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* padding-left:60px; */
 }
 
 
@@ -208,14 +207,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6aeeb0', end
 
 #recipegram-overview p{
     padding-top: 170px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 /* Code Quiz */
 
 #codequiz-overview p{
     padding-top: 235px;
-    padding-left: 20px;
+    padding-left: 30px;
     color:white;
 }
 
@@ -250,7 +249,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45c0ae', end
 
 #noteTaker-overview p {
     padding-top: 222px;
-    padding-left: 20px;
+    padding-left: 30px;
     color:rgb(209, 84, 84);
 }
 
@@ -281,7 +280,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 
 #workschedule-overview p {
     padding-top: 196px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 #workschedule-mockup img {
@@ -295,5 +294,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 /*Media Transformations*/
 
 @media screen and (max-width:750px) {
+
+    /* RecipeGram */
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
 
 }
