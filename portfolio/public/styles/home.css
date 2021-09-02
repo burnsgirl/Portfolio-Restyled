@@ -116,6 +116,7 @@
 .mockup {
     width: 700px;
     height:600px;
+    border: none;
 }
 
 .links {
@@ -129,11 +130,11 @@
     /* padding-left:60px; */
 }
 
-img {
+#recipegram-img {
     height:600px;
     width:600px;
     position: absolute;
-    z-index: -1;
+    z-index: -1; 
 }
 
 /* Button */
