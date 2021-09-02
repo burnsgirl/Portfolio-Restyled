@@ -204,6 +204,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6aeeb0', end
     padding-left: 20px;
 }
 
+/* Code Quiz */
+
+#codequiz-overview {
+    padding-top: 170px;
+    padding-left: 20px;
+    color:white;
+}
+
+#codequiz {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e6f9a+0,6fb9db+51,2aaad8+75,7ecee8+100 */
+background: #1e6f9a; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e6f9a 0%, #6fb9db 51%, #2aaad8 75%, #7ecee8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1e6f9a 0%,#6fb9db 51%,#2aaad8 75%,#7ecee8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1e6f9a 0%,#6fb9db 51%,#2aaad8 75%,#7ecee8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e6f9a', endColorstr='#7ecee8',GradientType=1 ); /* IE6-9 */
+}
 /*Media Transformations*/
 
 /* @media screen and (max-width:1150px) */
