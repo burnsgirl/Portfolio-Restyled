@@ -1,37 +1,63 @@
-/* Header */
-.header {
-    height: 250px;
+/* Body */
+
+.container {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+} 
+
+
+/* Header */
+.header {
+    height: 250px;
+    position: relative;
+    right: 120px;
+}
+
+header {
+    margin-top:70px;
+}
+
+/* Picture */
+#pic {
+    background-color:royalblue;
+    height:250px;
+    width:250px;
 }
 
 /* Nav Bar */
 .navbar {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color:white;
     justify-content: center;
-    height: 10px;
-    width: 100%;
+    height: 50px;
+    /* width:700px; */
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(95, 93, 93);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 250px;
+    bottom: 250px;
 }
 
 .navbar-left {
-   font-size: 40px;
-   font-weight: bold;
-   color: rgb(95, 93, 93);
-   line-height: 5px;
-   font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    float: left;
+}
+
+#name {
+    margin-bottom: 0px;
 }
 
 
 .navbar-right {
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    line-height: 5px;  
+    position: relative;
+    bottom: 23px;
+    float:right;
    
 }
 
@@ -43,33 +69,31 @@
 
 #about {
     font-size: 30px;
-    
     font-family: 'Roboto', sans-serif;
-    padding-top: 10px;
 }
 
 /* Overview */
 
 .aboutmeoverview {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    position: relative;
+    bottom: 268px;
+    left: 250px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     width:700px;
     text-decoration: none;
     color: rgb(95, 93, 93);
+    height:200px;
 }
 
 #aboutme {
     text-align: center;
-    height: 20px;
-    
+    padding: 30px 20px;
 }
 
 .contact {
-    height: 15px;
+    position: relative;
+    left: 60px;
 }
 
 .contact a{
@@ -78,16 +102,6 @@
     color: rgb(95, 93, 93);
 }
 
-/* Body */
-
-.container {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 80px;
-    margin-right: 80px;
-}
 
 /* #work-section {
     font-family: 'Roboto', sans-serif;
