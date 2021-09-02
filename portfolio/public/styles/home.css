@@ -308,8 +308,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 .graphic-card {
     height: 460px;
     width: 460px;
-    background-color:pink;
     margin: 20px 20px;
+}
+
+.graphic-card h1 {
+    padding-top: 175px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 93, 93);
 }
 
 /*Media Transformations*/
