@@ -220,6 +220,16 @@ background: -webkit-linear-gradient(left,  #1e6f9a 0%,#6fb9db 51%,#2aaad8 75%,#7
 background: linear-gradient(to right,  #1e6f9a 0%,#6fb9db 51%,#2aaad8 75%,#7ecee8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e6f9a', endColorstr='#7ecee8',GradientType=1 ); /* IE6-9 */
 }
+
+#codequiz-mockup h1 {
+    color:white;
+}
+
+#codequiz-btn {
+    color:white;
+    border-color: white;
+}
+
 /*Media Transformations*/
 
 /* @media screen and (max-width:1150px) */
