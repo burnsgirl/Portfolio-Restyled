@@ -338,13 +338,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 
 /*Media Transformations*/
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:1050px) {
 
-    /* RecipeGram */
+    .container {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+
     .card {
-        width: 100%;
-        height: auto;
+        height: 600px;
+        width: 800px;
+        margin: 20px 20px;
     }
-
-
 }
+
+@media screen and (max-width:850px) {
+
+    .container {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    
+    .card {
+        height: 460px;
+        width: 460px;
+        margin: 20px 20px;
+    }
+}
+
