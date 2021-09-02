@@ -73,8 +73,9 @@ header {
 }
 
 #about {
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 /* Overview */
