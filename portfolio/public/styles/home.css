@@ -493,6 +493,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
         top: -76px;
     }
 
+    #noteTaker-btn-deployed {
+        position: relative;
+        left: -397px;
+        top: -291px;
+    }
+
+    #noteTaker-btn-github {
+        position: relative;
+        left: -246px;
+        top: -357px;
+    }
+
 /* Work Schedule */
     #workschedule-mockup img {
         height: 200px;
@@ -505,6 +517,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     #workschedule-overview p {
         position: relative;
         top:-100px;
+    }
+
+    #workschedule-btn-deployed {
+        position: relative;
+        left: -397px;
+        top: -251px;
+    }
+
+    #workschedule-btn-github {
+        position: relative;
+        left: -246px;
+        top: -317px;
     }
 
 }
