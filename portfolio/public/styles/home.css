@@ -444,23 +444,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
         width: 300px;
     }
 
-    /* .links {
-        position: relative;
-        right:145px;
-    } */
-
     #codequiz-btn-deployed {
-        position: relative;
-        right:100px;
+        
     }
 
     /* RecipeGram */
     #recipegram-img {
         height: 250px;
         width: 250px;
-        position: absolute;
-        top: 492px;
-        left: 143px;
+        position: relative;
+        top: -23px;
+        left: 103px;
     }
 
     #recipegram-overview p {
