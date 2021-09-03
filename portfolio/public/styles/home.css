@@ -270,7 +270,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45c0ae', end
     color:rgb(209, 84, 84);
 }
 
-#noteTaker-btn {
+.noteTaker-btn {
     color:rgb(209, 84, 84);
     border-color:rgb(209, 84, 84);
 }
@@ -445,17 +445,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     }
 
    
-    #codequiz-btn-deployed {
-        position: relative;
-        left: -397px;
-        top: -2px;
-    }
-
-    #codequiz-btn-github {
-        position: absolute;
-        left: -208px;
-        top: -2px;
-    }
 
     /* RecipeGram */
     #recipegram-img {
@@ -468,6 +457,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 
     #recipegram-overview p {
         top:-65px;
+    }
+
+    #recipegram-btn-deployed {
+        position: relative;
+        left: -397px;
+        top: -231px;
+    }
+
+    #recipegram-btn-github {
+        position: relative;
+        left: -246px;
+        top: -297px;
+    }
+    /* Code Quiz */
+
+    #codequiz-btn-deployed {
+        position: relative;
+        left: -397px;
+        top: -2px;
+    }
+
+    #codequiz-btn-github {
+        position: relative;
+        left: -246px;
+        top: -68px;
     }
 
     /* Note Taker */
