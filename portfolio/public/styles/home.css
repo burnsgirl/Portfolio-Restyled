@@ -533,7 +533,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     #recipegram-btn-github {
         position: relative;
         left: -246px;
-        top: -297px;
+        top: -304px;
     }
     /* Code Quiz */
 
@@ -546,7 +546,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     #codequiz-btn-github {
         position: relative;
         left: -246px;
-        top: -68px;
+        top: -75px;
     }
 
     /* Note Taker */
@@ -567,7 +567,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     #noteTaker-btn-github {
         position: relative;
         left: -246px;
-        top: -357px;
+        top: -364px;
     }
 
 /* Work Schedule */
@@ -593,7 +593,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     #workschedule-btn-github {
         position: relative;
         left: -246px;
-        top: -317px;
+        top: -324px;
     }
 
 }
