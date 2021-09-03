@@ -238,7 +238,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e6f9a', end
     color:white;
 }
 
-#codequiz-btn {
+.codequiz-btn {
     color:white;
     border-color: white;
 }
@@ -444,8 +444,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
         width: 300px;
     }
 
+   
     #codequiz-btn-deployed {
-        
+        position: relative;
+        left: -397px;
+        top: -2px;
+    }
+
+    #codequiz-btn-github {
+        position: absolute;
+        left: -208px;
+        top: -2px;
     }
 
     /* RecipeGram */
