@@ -325,17 +325,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     bottom: 256px;
 }
 
-/* #honda {
-    position: relative;
-    bottom: 256px;
-}
+/*Media Transformations*/
 
-#google {
-    position: relative;
-    bottom: 256px;
+/* @media screen and (max-width:1500px) {
+
+    
+
+    .graphic-card {
+        height: 300px;
+        width: 300px;
+        margin: 20px 20px;
+    }
+
+    .graphic-card img {
+        height: 300px;
+        width: 300px;
+        z-index:-1;
+        position: relative;
+        bottom: 256px;
+    }
+
+    .graphic-card h1 {
+        text-align: center;
+        position: relative;
+        top: -66px;
+    }
 } */
 
-/*Media Transformations*/
 
 @media screen and (max-width:1050px) {
 
@@ -347,6 +363,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
         justify-content: center;
     } 
     
+    /* Header */
+
     /* Cards */
     .card {
         height: 400px;
@@ -375,25 +393,73 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 
     }
 
-    button {
-        font-size:12px;
-        position: relative;
-        top: -65px;
-    }
-
     /* RecipeGram */
     #recipegram-img {
         height: 350px;
         width: 350px;
-        position: absolute;
-        left: 331px;
-        top: 395px;
+        position: relative;
+        left: 71px;
+        top: 32px;
     }
+
+    #recipegram-btn-deployed {
+        position: relative;
+        left: -35px;
+        top: -438px;
+    }
+
+    #recipegram-btn-github {
+        position: relative;
+        left: -35px;
+        top: -424px;
+    }
+
+    /* Code Quiz */
+
+    #codequiz-btn-deployed {
+        position: relative;
+        left: -35px;
+        top: -112px;
+    }
+
+    #codequiz-btn-github {
+        position: relative;
+        left: -35px;
+        top: -92px;
+    }
+
+    /* Note Taker */
 
     #noteTaker-mockup img {
         height:400px;
         width:500px;
         position: absolute;
+    }
+
+    #noteTaker-btn-deployed {
+        position: relative;
+        left: -35px;
+        top: -86px;
+    }
+
+    #noteTaker-btn-github {
+        position: relative;
+        left: -35px;
+        top: -64px;
+    }
+
+    /* Work Schedule */
+
+    #workschedule-btn-deployed {
+        position: relative;
+        left: -35px;
+        top: -86px;
+    }
+
+    #workschedule-btn-github {
+        position: relative;
+        left: -35px;
+        top: -64px;
     }
 
     #workschedule-mockup img {
@@ -403,7 +469,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
         margin-top: 57px;
         margin-left: 26px;
     }
-
 }
 
 @media screen and (max-width:850px) {
