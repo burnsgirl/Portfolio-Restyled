@@ -198,13 +198,12 @@ button:hover {
     height:600px;
     width:600px;
     position: absolute;
-    z-index: -1; 
+ 
 }
 
 #recipegram {
     /* background-color: rgb(179, 241, 167); */
-    z-index: -1;
-    position: absolute;
+
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6aeeb0+0,7ff3b5+40,a8eecd+59,a8eecd+59,7ff3b5+71,b6eccf+87,8bf3ba+99 */
 background: #6aeeb0; /* Old browsers */
 background: -moz-linear-gradient(left,  #6aeeb0 0%, #7ff3b5 40%, #a8eecd 59%, #a8eecd 59%, #7ff3b5 71%, #b6eccf 87%, #8bf3ba 99%); /* FF3.6-15 */
@@ -384,10 +383,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 
     /* RecipeGram */
     #recipegram-img {
-        height:300px;
-        width:300px;
+        height: 350px;
+        width: 350px;
         position: absolute;
-        z-index: -1; 
+        left: 331px;
+        top: 395px;
     }
 
     #noteTaker-mockup img {
