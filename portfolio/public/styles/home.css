@@ -456,17 +456,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 
     /* RecipeGram */
     #recipegram-img {
-        height:150px;
-        width:150px;
+        height: 250px;
+        width: 250px;
         position: absolute;
-        z-index: -1; 
+        top: 492px;
+        left: 143px;
     }
 
+    #recipegram-overview p {
+        top:-65px;
+    }
+
+    /* Note Taker */
     #noteTaker-mockup img {
-        height:200px;
-        width:250px;
+        height: 300px;
+        width: 350px;
         position: relative;
-        left: 106px;
+        left: 54px;
+        top: -76px;
     }
 
 /* Work Schedule */
