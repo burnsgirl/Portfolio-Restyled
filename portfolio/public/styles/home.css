@@ -373,6 +373,44 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     
     /* Header */
 
+    .header {
+        height: 350px;
+    }
+
+    #pic img {
+        position: relative;
+        left:165px;
+    }
+
+    #name {
+        position: relative;
+        left: 180px;
+    }
+
+    #about {
+        position: relative;
+        left: -180px;
+        top: 50px;
+    }
+
+    #aboutme {
+        position: relative;
+        top:25px;
+        left: 159px;
+        width: 400px;
+    }
+
+    .contact {
+        position: relative;
+        left:-80px;
+        border-bottom: 3px solid rgb(95, 93, 93);
+        width:600px;
+    }
+
+     .aboutmeoverview {
+        height:300px;
+        border:none;
+    }
     /* Cards */
     .card {
         height: 400px;
