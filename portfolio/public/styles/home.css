@@ -241,8 +241,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e6f9a', end
 .codequiz-btn {
     color:white;
     border-color: white;
+    position: relative;
+    top: -572px;
 }
 
+#codequiz-img {
+    height: 600px;
+    width: 850px;
+    position: relative;
+    left: -98px;
+}
 /* Note Taker */
 
 #noteTaker {
@@ -416,16 +424,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 
     /* Code Quiz */
 
+    #codequiz-img {
+        height: 400px;
+        width: 600px;
+        position: relative;
+        left: -47px;
+    }
+
     #codequiz-btn-deployed {
         position: relative;
         left: -35px;
-        top: -112px;
+        top: -480px;
     }
 
     #codequiz-btn-github {
         position: relative;
         left: -35px;
-        top: -92px;
+        top: -461px;
     }
 
     /* Note Taker */
@@ -537,16 +552,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     }
     /* Code Quiz */
 
+    #codequiz-img {
+        height: 250px;
+        width: 400px;
+        position: relative;
+        left: 25px;
+        top: -46px;
+    }
+
     #codequiz-btn-deployed {
         position: relative;
         left: -397px;
-        top: -2px;
+        top: -243px;
     }
 
     #codequiz-btn-github {
         position: relative;
         left: -246px;
-        top: -75px;
+        top: -316px;
     }
 
     /* Note Taker */
