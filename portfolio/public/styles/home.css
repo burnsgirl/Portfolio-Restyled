@@ -109,13 +109,6 @@ header {
     color: rgb(95, 93, 93);
 }
 
-/* #work-section {
-    font-size: 40px;
-    font-weight: 100;
-    color: rgb(95, 93, 93);
-    font-family: 'Roboto', sans-serif;
-} */
-
 /* Cards */
 .card {
     height:600px;
@@ -305,11 +298,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     margin-top:40px;
     margin-left: -22px;
 }
-/* 
-#workschedule-btn {
-    position: relative;
-
-} */
 
 /* Graphic Design Cards */
 .graphic-card {
@@ -335,7 +323,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
 
 /*Media Transformations*/
 
-/* @media screen and (max-width:1500px) {
+ @media screen and (max-width:1500px) {
 
     
 
@@ -358,7 +346,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
         position: relative;
         top: -66px;
     }
-} */
+}
 
 
 @media screen and (max-width:1050px) {
