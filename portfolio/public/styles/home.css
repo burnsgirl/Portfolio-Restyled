@@ -522,7 +522,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
     }
 
     .header {
-        height: 600px;
+        height: 650px;
     }
 
     #pic img {
@@ -553,8 +553,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a5cc', end
         position: relative;
         left: -80px;
         top: 265px;
-        border-bottom: 3px solid rgb(95, 93, 93);
         width: 600px;
+        border-bottom:none;
+    }
+
+    #number {
+        position: relative;
+        left:195px;
+    }
+
+    #email {
+        position: relative;
+        left: 12px;
+        top: 35px;
+    }
+
+    #linkedin {
+        position: relative;
+        left: -175px;
+        top: 80px;
+    }
+
+    #github {
+        position: relative;
+        left: -172px;
+        top: 80px;
     }
     
     /* Cards */
